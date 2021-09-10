@@ -10,8 +10,6 @@ module.exports = { ucFirst, getMaxSubSum, truncate, camelize };
  * @returns {string}  string  result first upperCase string
  */
 
-
-
 function ucFirst(str) {
     let firstChar = str.charAt(0).toUpperCase();
     let result = firstChar + str.substring(1);
